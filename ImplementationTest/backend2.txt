@@ -1,0 +1,29 @@
+Question 1
+select * 
+from employees
+
+Question 2
+select count(*)
+from employees
+where job_title = "Manager"
+
+Question 3
+select name, salary
+from employees
+where department = "Sales" or department = "Marketing"
+
+Question 4
+select avg(salary)
+from employees
+where datediff(year, joined_date, getdate()) <= 5
+
+Question 5
+
+
+Question 6
+
+
+Question 7
+
+
+Question 8
